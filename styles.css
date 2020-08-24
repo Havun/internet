@@ -1,0 +1,230 @@
+@font-face {
+    src: <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500&display=swap" rel="stylesheet">;
+}
+*/{
+    border: 1px solid red
+}
+.container {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(231,231,231,1) 100%);
+    width: 970px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    height: 130px;
+    background-color: white;
+}
+.header img {
+    background-color: none;
+    display: inline-block;
+    height: 160px;
+    width: auto;
+    vertical-align: top;
+    
+}
+.header h1 {
+    display: inline-block;
+    font-size: 60px;
+    margin: 60px 0px 0px 0px;
+    color: #494949;
+}
+.header2 {
+    background: rgb(41,105,161);
+    background: linear-gradient(0deg, rgba(41,105,161,1) 0%, rgba(92,133,167,1) 50%, rgba(41,105,161,1) 100%);
+    height: 50px;;
+    padding-top: 20px;
+}
+.header2 h1 {
+    margin: 1px 0px 0px 30px;
+    color: white;
+}
+.blueint {
+    color: blue;
+}
+.redint {
+    color: red;
+}
+.sidecontent {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+}
+.sidecontent h1 {
+    font-size: 28px;
+    margin-left: 10px;
+}
+.sidecontent h2 {
+    font-size: 22px;
+    height: 100px;
+    margin-left: 10px;
+}
+.sidecontent a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.button1 {
+    background: rgb(41,105,161);
+    background: linear-gradient(0deg, rgba(41,105,161,1) 50%, rgba(92,133,167,1) 100%);
+    padding: 15px 90px 15px 90px;
+    margin: 10px 0px 0px 12px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.button2 {
+    background: rgb(239,117,0);
+    background: linear-gradient(0deg, rgba(239,117,0,1) 50%, rgba(234,175,89,1) 100%);
+    padding: 15px 75px 15px 75px;
+    margin: 5px 0px 0px 12px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.line {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #bcbcbc ;
+
+}
+.ad {
+    width: 300px;
+    height: 430px ;
+    background-image: url(ad_background.png);
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.ninja {
+    height: 200px;
+    margin-top: -30px;
+}
+.ad a {
+    font-size: 30px;
+    background: rgb(0,194,223);
+    background: linear-gradient(0deg, rgba(0,194,223,1) 50%, rgba(112,207,223,1) 100%);
+    margin-top: 10px;
+    padding: 5px 40px 5px 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px black;
+}
+.ad h1 {
+    color: white;
+    margin: 0px 30px 30px 30px;
+}
+.smallarrow1 {
+    font-size: 15px;
+    opacity: .4;
+    font-weight: bold;
+}
+.smallarrow2 {
+    font-size: 15px;
+    opacity: .6;
+    font-weight: bold;
+}
+.smallarrow3 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.maintop {
+    display: inline-block;
+    vertical-align: top;
+    width: 631px;
+}
+.rightside {
+    display: inline-block;
+    width: 150px;
+    margin-left: 30px;
+    padding: 10px;
+}
+.dns {
+    display: inline;
+    vertical-align: bottom;
+    color: #4f82af;
+    font-weight: bold;
+}
+.home {
+    height: 30px;
+    vertical-align: top;
+}
+.rightside2 {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    width: 360px;
+    margin-left: 65px;
+    text-align: center;
+
+}
+.phone {
+    display: inline-block;
+    height:50px ;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+.phonenumber {
+    width: 300px;
+    font-size: 30px;
+    margin-left: 140px;
+    color: #02c0df;
+    font-weight: bold;
+    opacity: .7;
+    margin-top: -55px;
+}
+.contactinfo {
+    font-size: 13px;
+    margin: 0px 0px 20px 200px;
+    width: 180px;
+    opacity: .5;
+}
+.contactinfo2 {
+    font-size: 13px;
+    margin: -33px 0px 0px 200px;
+    width: 180px;
+    opacity: .5;
+}
+.mainbody {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 350px;
+    margin-top: -800px;
+    width: 620px;
+}
+.bluehigh {
+    color: #3db3c4;
+    font-weight: bold;
+}
+.bold {
+    font-weight: bold;
+}
+.mainbody h3 {
+    color: #3db3c4;
+    font-weight: bold;
+    margin-bottom: -5px;
+}
+.mainbody img {
+    display: inline;
+    width: 400px;
+    margin-left: 105px;
+    margin-bottom: 10px;
+}
+.footer {
+    display: inline-block;
+    border-top: 5px solid #0085e0;
+    border-left: 5px solid #0085e0;
+    border-right: 5px solid #0085e0;
+    margin-left: 345px;
+    margin-top: -110px;
+    margin-bottom: 10px;
+}
+.footer img {
+    display: inline-block;
+    height: 150px;
+}
+.footertext {
+    display: inline-block;
+    width: 440px;
+}
